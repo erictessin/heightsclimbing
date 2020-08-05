@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<title>Heights: Rock Climbing Gym</title>
+</head>
+<body>
+    <header class="navbarheader">
+        <a href="home.html"><img class="logo" src="images/logo2.png" alt="company logo" width="150" height="150"></a>
+        <nav>
+            <ul class="navlinks">
+                <li class="navli"><a class="nava" href="home.html">Home</a></li>
+                <li class="navli"><a class="nava" href="locations.html">Locations</a></li>
+                <li class="navli"><a class="nava" href="membership.html">Membership</a></li>
+                <li class="navli"><a class="nava" href="fitness.html">Fitness</a></li>
+                <li class="navli"><a class="nava" href="yoga.html">Yoga</a></li>
+                <li class="navli"><a class="nava" href="sources.html">Sources</a></li>
+            </ul> 
+        </nav>
+        <a class="cta" href="form.html"><button class="navbutton">Contact</button></a>
+    </header>
+
+    <h1>Contact</h1>
+
+    <div class="panorama">
+        <img class="mountainpanorama" src="images/panoramaskymountain.jpg" alt="Panorama photo showing a blue sky with some clouds and a mountain range">
+    </div>
+
+    <div class="container">
+        <div class="containercontactheadersize" style="text-align:center">
+          <h3 id="contactheadersize">Contact Us</h3>
+          <p>Questions? Feedback? Fill out our contact form below and we will get back to you ASAP! Thank you!</p>
+        </div>
+        <div class="tablerow">
+          <div class="column piccolumn">
+            <img src="/images/descendingclimber.jpg" alt="a climber descending after finishing her route" width="900">
+          </div>
+          <div class="column formcolumn">
+                <form method="POST" action="https://formspree.io/mjvalpjj">
+                    <fieldset>
+                        <legend></legend>
+                    <div>
+                        <label for="fname">First Name*</label><br>
+                        <input required type="text" placeholder="Your first name..." name="fname" id="fname">
+                    </div>    
+                    <div>
+                        <label for="lname">Last name*</label><br>
+                        <input required type="text" placeholder="Your last name..." name="lname" id="lname">
+                    </div>
+                    <div>
+                        <label for="email">Email*</label><br>
+                        <input required type="text" placeholder="Your email..." name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Contact Reason</label><br>
+                        <select name="dropdown" size="1">
+                            <optgroup label="General">
+                                <option value="question">Question</option>
+                                <option value="feedback">Feedback</option>
+                            </optgroup>
+                            <optgroup label="Classes">
+                                <option value="Yoga">Yoga</option>
+                                <option value="Strength">Strength</option>
+                                <option value="Climbing">Climbing</option>
+                            </optgroup>
+                        </select>    
+                        <label for="messagebox">Message</label>
+                        <textarea name="messagebox" rows="10" cols="30" placeholder="Your message here..."></textarea>
+                    </div>
+                    <div class="submitbutton">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="submitbutton">
+                        <input type="reset" value="Reset">
+                    </div>
+                </fieldset>
+                </form>
+          </div>
+        </div>
+      </div>
+
+    <footer>
+        <div class="footerlove">
+            <div class="footercontainer">
+                <div>
+                    <h4>Location</h4>
+                    <p class="footertextsize">
+                        100 Yosemite Dr.<br>
+                        Novato, CA 94945
+                    </p>
+                </div>
+                <div>    
+                    <h4>Hours</h4>
+                    <p class="footertextsize">
+                        M-Th 6AM-11PM<br>
+                        F 6AM-10PM<br>
+                        S/Su 8AM-9PM
+                    </p>
+                </div>
+                <div>    
+                    <h4>Contact</h4>
+                    <p class="footertextsize">
+                        555-555-5555<br>
+                        <a href="form.html">Email Us</a>
+                    </p>
+                </div>
+                <div>    
+                    <h4>Owned and Operated By</h4>
+                    <p class="footertextsize">
+                        Heights: Climbing Gym Inc.
+                    </p>
+                    <img class="footerlogo" src="images/logo2.png" alt="climbing logo" height="125" width="125">
+                </div>    
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

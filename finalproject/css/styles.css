@@ -1,0 +1,563 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+body {
+    background-color: #475B5A;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Staatliches", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background: #FFE45C;
+    text-align: center;
+    font-size: 48px;
+    margin: 0px 0px 40px 0px;
+    padding: 10px;
+    border: solid;
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+}
+
+p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.panorama {
+    background-color: #516766;
+    height: auto;
+    width: 100%;
+}
+
+/*
+    --Table of Contents--
+    1. Navigation Bar
+    2. Upper Image Box
+    3. Fact Box
+    4. Our Promise Box
+    5. Welcome Paragraph
+    6. Membership Payment Info
+    7. Contact Form
+    8. Sources
+*/
+
+/*=====================
+  1. Navigation Bar
+=====================*/
+.navbarheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10%;
+    margin: 0px 0px 30px 0px;
+    background-color: #475B5A;
+}
+
+.navli, .nava, button {
+    font-weight: 500;
+    font-size: 25px;
+    color: #F7FFF7;
+    text-decoration: none;
+}
+.logo {
+    cursor: pointer;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.4s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #F7A072;
+}
+
+.navbutton {
+    background-color: #564787;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover {
+    background-color: #F7B05B;
+}
+
+/*end Navigation Box*/
+
+/*================
+2. Upper Image Box
+==================*/
+.imagebox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+}
+
+.galleryitem {
+    flex: 25%;
+    max-width: 25%;
+}
+
+.galleryimg {
+    margin: auto;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.galleryimg:hover {
+    transform: scale(1.04);
+}
+
+.mountainpanorama {
+    height: 350px;
+    width: 100%;
+}
+/*end Upper Image Box*/
+
+/*==========
+3. Fact Box
+============*/
+.gymfactsholder {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE45C;
+    margin-top: 15px;
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+}
+
+.gymfactsbox {
+    flex: 25%;
+    max-width: 25%;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    border: solid;
+}
+
+.gymfactsection {
+    margin: auto;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+.factboxbigword {
+    font-size: 44px;
+    font-weight: 700;
+}
+/*end Fact Box*/
+
+/*================ 
+4. Our Promise Box
+==================*/
+
+.ourpromise {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    clear: both;
+}
+
+.ourpromisebox1 {
+    flex: 25%;
+    max-width: 25%;
+    text-align: center;
+    font-size: 42px;
+    align-items: center;
+    background: #242331;
+    color: #F7FFF7;
+}
+
+.ourpromisebox2 {
+    flex: 25%;
+    max-width: 25%;
+    text-align: center;
+    font-size: 22px;
+    padding: 12px;
+    background: #2B2A3C;
+    color: #F7FFF7;
+}
+/*end Our Promise Box*/
+
+/*===================
+5. Welcome Paragraph
+=====================*/
+
+.welcomebox {
+    background-color: #516766;
+    overflow: auto;
+}
+
+.welcomeinnerbox {
+    width: 50%;
+    margin: auto;
+}
+
+.welcomeheader {
+    float: left;
+    margin-bottom: -40px;
+}
+
+.welcomeparagraph {
+    float: left;
+}
+
+.welcomebutton {
+    background-color: #564787;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-weight: 500;
+    font-size: 25px;
+    color: #F7FFF7;
+    text-decoration: none;
+}
+
+/*end New Paragraph*/
+
+/*=========================
+6. Membership Payment Info
+===========================*/
+
+.memberinfocontainer {
+    background-color: #516766;
+    padding: 4px;
+    padding-bottom: 15px;
+}
+
+.memberintro {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+table {
+    border: solid;
+    border-spacing: 0;
+    padding: 10px;
+    font-size: 30px;
+    caption-side: bottom;
+    margin: 20px auto;
+    border-collapse: collapse;
+    empty-cells: initial;
+}
+
+th, td {
+    border: solid;
+    padding: 10px;
+}
+
+caption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.initiationcenter, td {
+    text-align: center;
+}
+
+colgroup {
+    background-color:#FFE45C;
+}
+
+.memtablecontainer {
+    overflow-y: auto;
+}
+
+.membershipheader {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 2px;
+    text-decoration: underline;
+
+}
+/*end Membership Table*/
+
+/*==============
+7. Contact Form
+================*/
+.tablerow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+    margin: 20px;
+}
+
+.formcolumn {
+    width: auto;
+    font-size: 22px;
+    color: #F7FFF7;
+}
+
+label {
+    display: inline-block;
+    margin: 14px 0px 7px 0px;
+}
+
+input, select {
+    width: 100%;
+    height: 30px;
+}
+
+textarea, select {
+    width: 100%;
+}
+
+::placeholder, select, input[type=submit], input[type=reset] {
+    font-size: 18px;
+}
+
+.containercontactheadersize {
+    background-color: #516766;
+    padding: 4px;
+    padding-bottom: 15px;
+}
+
+#contactheadersize {
+    font-size: 28px;
+}
+
+select {
+    margin-bottom: 14px;
+}
+
+.submitbutton {
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.footerlogo {
+    margin-top: -14px;
+}
+
+legend {
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+}
+/*end Contact Form*/
+
+/*=============
+8. Sources Box
+===============*/
+
+.sourcesthankyoucontainer {
+    background-color: #516766;
+    padding: 4px;
+    padding-bottom: 15px;
+}
+
+.sourcesthankyou {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.sourcesbox {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.linkul{
+    display: inline;
+}
+
+.linkcolor {
+    list-style-type: none;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.sourceslinkheader {
+    margin-bottom: 0px;
+}
+
+a {
+    color: blue;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #F7B05B;
+}
+
+a:active {
+    color: #F7FFF7;
+    transition: all 1s ease 0s;
+}
+
+/*end Sources Box*/
+
+/*========
+9. Footer
+==========*/
+
+footer {
+    text-align: center;
+    background-color: #FFE45C;
+    margin: 0;
+}
+
+.footerlove {
+    height: 100%;
+}
+
+.footercontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 24px;
+    margin-bottom: -8px;
+}
+
+.footertextsize {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/*end Footer*/
+
+@media (min-width: 375px) {
+.navbarheader {
+    flex-flow: column;
+    padding: 15px 20%;
+    margin-right: 40px;
+}
+
+.navlinks {
+    text-align: center;
+}
+   
+button {
+    padding: 9px 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.logo {
+    margin: 30px 0px 0px 35px;
+}
+
+.gymfactsholder {
+    flex-flow: row wrap;
+}
+
+.gymfactsbox {
+    flex: 100%;
+    max-width: 100%;
+}
+
+.ourpromise {
+    flex-flow: column;
+}
+
+.ourpromisebox1 {
+    max-width: none;
+}
+
+.ourpromisebox2 {
+    max-width: none;
+}
+}
+
+@media (min-width:768px) {
+    .navbarheader {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        padding: 10px 10%;
+        margin: 0px 0px 40px 0px;
+    }
+
+    .ourpromise {
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .ourpromisebox1 {
+        font-size: 38px;
+    }
+    
+    p {
+        font-size: 28px;
+    }
+
+    .linksize {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .navbarheader {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .gymfactsholder {
+        flex-flow: row wrap;
+    }
+
+    .gymfactsbox {
+        flex: 25%;
+        max-width: 25%;
+    }
+
+    .ourpromise {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .ourpromisebox1 {
+        flex: 25%;
+        max-width: 25%;
+        font-size: 42px;
+    }
+
+    .ourpromisebox2 {
+        flex: 25%;
+        max-width: 25%;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
